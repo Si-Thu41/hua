@@ -23,7 +23,7 @@ export default function Default() {
             <li>Produced six short-form videos for a new account, generating 4,864 views and a 5.7% engagement rate.</li>
         </ul>
         <div className="flex justify-center items-center">
-            <Image src="/marketingTeamSupervisor2.jpg" alt="mymee1" width={300} height={100} className="rounded-lg" />
+            <Image src="/comp/marketingTeamSupervisor2_comp.jpg" alt="mymee1" width={300} height={100} className="rounded-lg" />
         </div>
         </section>
         <OfflineCampaign />

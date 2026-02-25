@@ -4,6 +4,7 @@ import "./globals.css";
 import Nav from "./components/Nav";
 import About from './components/about';
 import ITCMA from "./itcma/page";
+import Contact from "./components/contact";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -55,6 +56,7 @@ export default function RootLayout({
         {services}
         {mymee}
         {studentCouncil}
+        <Contact/>
       </body>
     </html>
   );

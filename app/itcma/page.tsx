@@ -24,9 +24,9 @@ export default function ITCMA(){
         </section>
         <div className="lg:w-[85%] w-[90%] grid lg:grid-cols-3  mx-auto ">
             
-            <CarouselWithCaptions images={['/itcmaGroupPhoto1.jpg','/itcmaGroupPhoto2.jpg']} captions="Group Photos"/>
-            <CarouselWithCaptions images={['/marketingTeamSupervisor1.jpg','/marketingTeamSupervisor2.jpg']} captions="Marketing Team With Supervisor"/>
-            <CarouselWithCaptions images={['/itcmaEventHighlight1.jpg','/itcmaEventHightlight2.jpg']} captions="Event Highlights"/>
+            <CarouselWithCaptions images={['/comp/itcmaGroupPhoto1_comp.jpg','/itcmaGroupPhoto2.jpg']} captions="Group Photos"/>
+            <CarouselWithCaptions images={['/marketingTeamSupervisor1.jpg','/comp/marketingTeamSupervisor2_comp.jpg']} captions="Marketing Team With Supervisor"/>
+            <CarouselWithCaptions images={['/comp/itcmaEventHighlight1_comp.jpg','/comp/itcmaEventHightlight2_comp.jpg']} captions="Event Highlights"/>
         </div>
         
         <br></br>

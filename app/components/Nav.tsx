@@ -27,10 +27,10 @@ export default function Nav() {
 
   return (
     <div className="sticky top-0 w-full bg-white py-4 border-b border-gray-200 z-10">
-    <nav className=" lg:w-[50%] w-9/10  mx-auto flex min-h-full items-center justify-between md:px-4 bg-gray-100 rounded-lg shadow-md/30">
+    <nav className=" lg:w-[50%] w-[95%] mx-auto flex min-h-full items-center justify-between md:px-4 bg-gray-100 rounded-lg shadow-md/30">
       {links.map((l) => {
         const isActive = active === l.href;
-        const base = "py-2 px-3 text-red-300 font-bold text-sm md:text-lg rounded-lg text-center flex-1";
+        const base = "py-2 md:px-3 px-1 text-red-300 font-bold text-sm md:text-lg rounded-lg text-center flex-1";
         const activeClasses = "bg-red-300 text-white";
         return (
           <Link

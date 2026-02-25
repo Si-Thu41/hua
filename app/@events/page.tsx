@@ -19,7 +19,7 @@ export default function Experience() {
             </header>
             <section className="w-full md:grid md:grid-cols-2 items-center bg-red-100 px-10 py-10 gap-4" id='experience' >
                 <CarouselWithCaptions images={['/Orientation1.jpg','/mOrientation1.jpg']} captions={'Rangsit University International College Orientation'} interval={4000}/>
-                <CarouselWithCaptions images={['/Orientation1.jpg','/mOrientation1.jpg']} captions={'RIC Music Club Member Orientation'} interval={4000}/>
+                <CarouselWithCaptions images={['/mOrientation1.jpg','/comp/mOrientation2_comp.jpg','comp/mOrientation3_comp.jpg']} captions={'RIC Music Club Member Orientation'} interval={4000}/>
                 <CarouselWithCaptions images={['/valentine2025.jpg']} captions={'RIC Valentine\'s Day Event 2025'} interval={4000}/>
                 <CarouselWithCaptions images={['/valentine2025.jpg']} captions={'RIC Valentine\'s Day Event 2026'} interval={4000}/>
 

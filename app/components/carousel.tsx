@@ -28,7 +28,7 @@ export default function Carousel({ images, interval = 5000 }: Props) {
 
     return (
         <div className="w-full  mx-auto">
-            <div className="relative overflow-hidden  ">
+            <div className="relative overflow-hidden  rounded-xl">
                 <div
                     className="flex transition-transform duration-700 ease-in-out  "
                     style={{
@@ -39,13 +39,13 @@ export default function Carousel({ images, interval = 5000 }: Props) {
                     {images.map((src, i) => (
                         <div
                             key={i}
-                            className="w-full flex-shrink-0  "
+                            className="w-full flex items-center flex-shrink-0 lg:h-80 "
                             style={{ width: `${100 / images.length}%` }}
                         >
                             <img
                                 src={src}
                                 alt={`slide-${i + 1}`}
-                                className="w-full rounded-xl "
+                                className="w-full my-auto rounded-xl "
                             />
                         </div>
                     ))}

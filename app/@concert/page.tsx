@@ -11,7 +11,7 @@ const tangerine = Tangerine({
     subsets: ["latin"],
     weight: "400"
 })
-const songbirdImages=['/songbird1.jpg','/songbird2.jpg','/songbird3.jpg','/songbird4.jpg','/songbird5.jpg','/songbird6.jpg']
+const songbirdImages=['/songbird1.jpg','/songbird2.jpg','/comp/songbird3_comp.jpg','/comp/songbird4_comp.jpg','/comp/songbird5_comp.jpg','/songbird6.jpg']
 export default function Concert(){
     return <div className="bg-red-100 pb-4 flex flex-col ">
         <PageBreak/>
@@ -19,9 +19,9 @@ export default function Concert(){
                 <h2 className={`underline decoration-red-400 text-7xl font-bold text-gray-800 text-center py-5 ${tangerine.className}`}>The Songbirds' Paradise</h2>
                  <p className="underline decoration-red-400 text-center text-2xl font-bold">RIC Music Club Concert</p>
         </header>
-        <section className="w-[80%] mx-auto grid lg:grid-cols-2 grid-cols-1 py-5 gap-y-15 lg:gap-y-0">
+        <section className="w-[80%] mx-auto grid lg:grid-cols-2 grid-cols-1 py-5 gap-y-8 lg:gap-y-0">
                 <div className="w-full flex flex-col justify-center items-center">
-                    <img src='songbirdPoster.png' alt='concert poster' className="w-2/3 rounded-xl border-3 border-red-300"/>
+                    <img src='/comp/songbirdPoster_comp.png' alt='concert poster' className="w-2/3 rounded-xl border-3 border-red-300"/>
                 </div>
                 <div className="md:w-5/7 mx-auto">
                     <div className="py-7">
