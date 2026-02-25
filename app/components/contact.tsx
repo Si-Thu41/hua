@@ -19,7 +19,7 @@ export default function Contact(){
         <div className=" w-1/2 grid md:gap-y-3 gap-y-2 text-center mx-auto">
             <p className="py-1 md:text-md text-sm md:py-2 px-4 rounded-full border-2 hover:underline"><MailIcon/><a href="mailto:urbuddyella@gmail.com">urbuddyella@gmail.com</a></p>
             <p className="py-1 md:text-md text-sm md:py-2 px-4 rounded-full border-2 hover:underline"><LocalPhoneIcon/> <a href="tel:0645897563">0645897563</a></p>
-            <p className="py-1 md:text-md text-sm md:py-2 px-4 rounded-full border-2 hover:underline"><LinkedInIcon/> <a href="linkedin.com/in/aye-thinzar-aung-971a90356" target="_blank">Aye Thinzar Aung</a></p>
+            <p className="py-1 md:text-md text-sm md:py-2 px-4 rounded-full border-2 hover:underline"><LinkedInIcon/> <a href="https://www.linkedin.com/in/aye-thinzar-aung-971a90356/" target="_blank">Aye Thinzar Aung</a></p>
             <p className="py-1 md:text-md text-sm md:py-2 px-4 rounded-full border-2 hover:underline"><InstagramIcon/> <a href="https://www.instagram.com/ddreameily?igsh=a3UyMjg4MG1ja3V5&utm_source=qr" target="_blank">@ddreameily</a></p>
         </div>
     </footer>
