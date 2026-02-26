@@ -1,5 +1,6 @@
 "use client";
 import React, { useEffect, useRef, useState } from "react";
+import Image from "next/image";
 
 type Props = { images: string[]; interval?: number };
 
@@ -46,6 +47,7 @@ export default function Carousel({ images, interval = 5000 }: Props) {
                                 src={src}
                                 alt={`slide-${i + 1}`}
                                 className="w-full my-auto rounded-xl "
+                                loading="lazy"
                             />
                         </div>
                     ))}

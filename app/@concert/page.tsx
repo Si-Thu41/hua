@@ -21,7 +21,7 @@ export default function Concert(){
         </header>
         <section className="w-[80%] mx-auto grid lg:grid-cols-2 grid-cols-1 py-5 gap-y-8 lg:gap-y-0">
                 <div className="w-full flex flex-col justify-center items-center">
-                    <img src='/comp/songbirdPoster_comp.png' alt='concert poster' className="w-2/3 rounded-xl border-3 border-red-300"/>
+                    <img src='/comp/songbirdPoster_comp.png' alt='concert poster' className="w-2/3 rounded-xl border-3 border-red-300" loading="lazy"/>
                 </div>
                 <div className="md:w-5/7 mx-auto">
                     <div className="py-7">

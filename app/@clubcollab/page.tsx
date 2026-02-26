@@ -9,11 +9,11 @@ export default function ClubCollab() {
             </header>
         <section className="md:w-[70%] mx-auto grid md:grid-cols-2 py-8 border-b-2 border-red-400 gap-10">
             <div className="w-2/3 mx-auto">
-                <img src='/photoshootEC.jpg' alt='photoshoot' className="w-full h-full object-cover rounded-xl"/>
+                <img src='/photoshootEC.jpg' alt='photoshoot' className="w-full h-full object-cover rounded-xl" loading="lazy"/>
             </div>
 
             <div className="w-2/3 mx-auto">
-                <img src='/photoshootEC.jpg' alt='photoshoot' className="w-full h-full object-cover rounded-xl"/>
+                <img src='/photoshootEC.jpg' alt='photoshoot' className="w-full h-full object-cover rounded-xl" loading="lazy"/>
             </div>
 
         </section>

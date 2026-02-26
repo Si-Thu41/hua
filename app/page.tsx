@@ -1,6 +1,7 @@
 import {Tangerine} from 'next/font/google';
 import Link from 'next/link';
 
+
 const tangerine = Tangerine({
   subsets: ['latin'],
   weight: ['400', '700'],
@@ -13,7 +14,7 @@ export default function Home() {
     <main className="mt-1 xl:px-20 mx-2 mb-5 grid xl:grid-cols-2 justify-center items-center">
 
       <div className="xl:w-1/2 xl:h-auto xl:rounded-lg rounded-full h-50 w-50 mx-auto overflow-hidden xl:flex xl:items-start xl:justify-start">
-        <img src="/comp/huaMain_comp.jpg" alt="Picture of the author"  />
+        <img src="/comp/huaMain_comp.jpg" alt="Picture of the author" loading="lazy" />
       </div>
       
       <div className=" mx-auto w-full flex flex-col items-center justify-items-start ">

@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { Tangerine } from "next/font/google";
+import Image from "next/image";
 const tangerine = Tangerine({
   subsets: ['latin'],
   weight: ['400', '700'],
@@ -20,7 +21,7 @@ export default function About() {
             <Link href="" className="block active:bg-red-300 bg-red-400 px-3 py-2 max-w-max rounded-md mt-2 mx-auto text-white">My Resume</Link>
         </div>
       <div className="lg:w-full w-2/3 mx-auto max-h-max flex justify-center items-start " >
-        <img src="/huaAbout.png" alt="Picture of the author" className="lg:max-w-1/2 w-full rounded-lg" />
+        <Image src="/huaAbout.png" alt="Picture of the author"  width={200} height={200} className="lg:max-w-1/2 w-full rounded-lg" />
       </div>
     </section>);
 }

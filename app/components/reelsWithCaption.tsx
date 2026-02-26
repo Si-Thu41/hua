@@ -1,7 +1,9 @@
+import { preload } from "react-dom"
+
 export default function ReelsWithCaption({url, views, link, youTube,width,height}:{url:string, views:string, link:string, youTube?:boolean,width?:string,height?:string}){
     return <div className={` ${width?width: "w-65"} py-5 ${height? `${height}` : ''} mx-auto`}>
         <div className={`w-full h-2/3`}>
-            <video controls className={`object-cover w-full mx-auto rounded-xl border-3 border-red-300 h-full`} >
+            <video controls className={`object-cover w-full mx-auto rounded-xl border-3 border-red-300 h-full`} preload='metadata' >
                 <source src={url} type="video/mp4"/>
             Your browser does not support the video tag.
             </video>

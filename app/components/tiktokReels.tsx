@@ -1,7 +1,7 @@
  
  export default function TikTokReelsPage({url,view,tiktokLink}:{url:string,view?:string,tiktokLink:string}){
   return <div className="w-2/3 mx-auto py-10">
-        <video controls className="w-full rounded-xl">
+        <video controls className="w-full rounded-xl" preload="metadata">
             <source src={url} type="video/mp4"/>
             Your browser does not support the video tag.
         </video>

@@ -28,7 +28,7 @@ export default function Experience() {
             </div>
             <div className="w-full mr-0 flex flex-col justify-center items-center">
                 <div className="max-w-1/2 rounded-lg border-2 border-red-300 overflow-hidden">
-                <img src="/mcCertificate.jpg" alt="Picture of the author" className="w-full rounded-lg" id='mcCertificate'/>
+                <img src="/mcCertificate.jpg" alt="Picture of the author" className="w-full rounded-lg" id='mcCertificate' loading="lazy"/>
                 </div>
                 <label htmlFor="mcCertificate" className="text-md font-bold py-2">Certificate of Appreciation (Rangsit University)</label>
             </div>

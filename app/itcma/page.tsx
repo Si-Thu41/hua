@@ -8,7 +8,7 @@ export default function ITCMA(){
         </div>
         <section className="grid lg:grid-cols-2 gap-7 w-[80%] lg:w-[70%] mx-auto pb-10">
             <div className="row-span-2 w-[95%] flex justify-center items-center mx-auto ">
-                <img src="/itcma1.jpg" alt="ITCMA" className="w-full h-auto object-cover rounded-xl"/>
+                <img src="/itcma1.jpg" alt="ITCMA" className="w-full h-auto object-cover rounded-xl" loading="lazy"/>
             </div>
             <div>
                 <h2 className="text-2xl font-bold py-5 ">Marketing Team Member</h2>
@@ -19,7 +19,7 @@ export default function ITCMA(){
                 </ul>
             </div>
             <div className="w-2/3 mx-auto rounded-xl overflow-hidden">
-                <img src="/itcma2.jpg" alt="ITCMA" className="w-full object-cover"/>
+                <img src="/itcma2.jpg" alt="ITCMA" className="w-full object-cover" loading="lazy"/>
             </div>
         </section>
         <div className="lg:w-[85%] w-[90%] grid lg:grid-cols-3  mx-auto ">
