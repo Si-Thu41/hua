@@ -22,7 +22,7 @@ export const metadata: Metadata = {
 };
 
 export default function RootLayout({
-  children,experience,events,podcast,coversongs,clubcollab,photoshoot,concert,services,mymee,studentCouncil
+  children,experience,events,podcast,coversongs,clubcollab,photoshoot,concert,services,mymee,studentCouncil,rsunity,barista
 }: Readonly<{
   children: React.ReactNode;
   experience: React.ReactNode;
@@ -35,6 +35,8 @@ export default function RootLayout({
   services: React.ReactNode;
   mymee: React.ReactNode;
   studentCouncil: React.ReactNode;
+  rsunity:React.ReactNode;
+  barista:React.ReactNode
 }>) {
   return (
     <html lang="en">
@@ -56,7 +58,9 @@ export default function RootLayout({
         {services}
         {mymee}
         {studentCouncil}
-        <Contact/>
+        {rsunity}
+        {barista}
+         <Contact/>
       </body>
     </html>
   );

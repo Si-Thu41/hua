@@ -43,11 +43,14 @@ export default function Carousel({ images, interval = 5000 }: Props) {
                             className="w-full flex items-center flex-shrink-0 lg:h-80 "
                             style={{ width: `${100 / images.length}%` }}
                         >
-                            <img
+                            <Image
                                 src={src}
                                 alt={`slide-${i + 1}`}
                                 className="w-full my-auto rounded-xl "
                                 loading="lazy"
+                                sizes="(max-width: 768px) 100vw, 50vw"
+                                width={320} height={180}
+                                
                             />
                         </div>
                     ))}
