@@ -5,6 +5,7 @@ import Nav from "./components/Nav";
 import About from './components/about';
 import ITCMA from "./itcma/page";
 import Contact from "./components/contact";
+import { Analytics } from "@vercel/analytics/next";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -61,6 +62,7 @@ export default function RootLayout({
         {rsunity}
         {barista}
          <Contact/>
+         <Analytics/>
       </body>
     </html>
   );
